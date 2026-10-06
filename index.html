@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mariella Buque — Solution Support Engineer</title>
+<meta name="description" content="Portfolio of Mariella Buque, Solution Support Engineer. Selected projects, experience and ways to get in touch.">
+<meta name="theme-color" content="#121316">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mariella Buque — Solution Support Engineer">
+<meta property="og:description" content="Selected projects, experience and ways to get in touch.">
+<meta property="og:image" content="[YOUR SOCIAL PREVIEW IMAGE URL]">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Mariella Buque">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#121316;--bg2:#181a1f;--line:#2a2d35;--tx:#eef0f4;--mut:#a3a8b5;--ac:#7b8cff;--ac2:#ee92c2;--r:20px;--nav:76px;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav) + 12px + env(safe-area-inset-top,0px));-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 1.0625rem/1.65 "Instrument Sans",system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:"Bricolage Grotesque","Instrument Sans",system-ui,sans-serif;line-height:1.05;margin:0;letter-spacing:-.025em}
+h2{font-size:clamp(2rem,5vw,3.25rem);font-weight:700}
+h3{font-size:1.35rem;font-weight:700;letter-spacing:-.01em}
+p{margin:0 0 1em;max-width:62ch}
+a{color:inherit}
+img,svg{max-width:100%}
+:focus-visible{outline:2px solid var(--ac);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ac);color:#0b0c10;padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+.wrap{width:min(1120px,100% - 40px);margin-inline:auto}
+section{padding:clamp(72px,11vw,140px) 0}
+.sec-head{margin-bottom:clamp(32px,5vw,56px);max-width:720px}
+.sec-head p{color:var(--mut);margin-top:14px}
+.mut{color:var(--mut)}
+/* nav */
+header.nav{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:background .3s,border-color .3s,backdrop-filter .3s;border-bottom:1px solid transparent}
+header.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:var(--nav);transition:height .3s}
+header.nav.small{background:rgba(18,19,22,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:var(--line)}
+header.nav.small .wrap{height:58px}
+.logo{font:800 1.2rem "Bricolage Grotesque",sans-serif;text-decoration:none;letter-spacing:-.03em}
+.logo i{font-style:normal;color:var(--ac)}
+nav ul{display:flex;gap:4px;list-style:none;margin:0;padding:0;align-items:center}
+nav a.l{display:block;padding:8px 13px;border-radius:99px;text-decoration:none;color:var(--mut);font-size:.95rem;font-weight:500;transition:color .2s,background .2s}
+nav a.l:hover{color:var(--tx)}
+nav a.l[aria-current=true]{color:var(--tx);background:rgba(123,140,255,.14)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 24px;border-radius:99px;font-weight:600;font-size:1rem;text-decoration:none;border:1px solid var(--line);background:transparent;color:var(--tx);cursor:pointer;font-family:inherit;transition:transform .2s,background .2s,border-color .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);border-color:#4a4f5c}
+.btn:active{transform:translateY(0) scale(.98)}
+.btn.p{background:linear-gradient(135deg,var(--ac),var(--ac2));border-color:transparent;color:#0b0c10}
+.btn.p:hover{box-shadow:0 10px 30px -8px rgba(123,140,255,.65)}
+.btn.sm{padding:8px 18px;font-size:.92rem}
+.burger{display:none;background:none;border:1px solid var(--line);color:var(--tx);border-radius:12px;width:44px;height:44px;cursor:pointer}
+/* hero */
+#hero{min-height:100svh;display:flex;align-items:center;padding:calc(var(--nav) + 40px) 0 60px;position:relative;overflow:hidden}
+#hero::before{content:"";position:absolute;inset:0;background:radial-gradient(520px circle at var(--mx,70%) var(--my,30%),rgba(123,140,255,.22),transparent 60%),radial-gradient(700px circle at 10% 100%,rgba(238,146,194,.12),transparent 60%);pointer-events:none}
+.grid{display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center;position:relative}
+.badge{display:inline-flex;align-items:center;gap:10px;padding:7px 16px 7px 12px;border:1px solid var(--line);border-radius:99px;font-size:.9rem;color:var(--mut);background:rgba(255,255,255,.03)}
+.dot{width:9px;height:9px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 0 rgba(74,222,128,.6);animation:pulse 2.4s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px rgba(74,222,128,0)}100%{box-shadow:0 0 0 0 rgba(74,222,128,0)}}
+h1{font-size:clamp(3rem,10.5vw,7.5rem);font-weight:800;letter-spacing:-.045em;margin:0 0 18px}
+h1 span{display:block;overflow:hidden}
+h1 span b{display:block;font-weight:inherit;transform:translateY(105%);animation:rise .9s cubic-bezier(.2,.8,.2,1) forwards}
+h1 span:nth-child(2) b{animation-delay:.12s;background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+@keyframes rise{to{transform:none}}
+.role{font:600 clamp(1.15rem,2.4vw,1.5rem)/1.3 "Bricolage Grotesque",sans-serif;margin-bottom:12px}
+.fade{opacity:0;animation:in .8s .55s ease forwards}
+@keyframes in{to{opacity:1}}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+.avatar{aspect-ratio:4/5;border-radius:28px;border:1px solid var(--line);background:linear-gradient(160deg,#23263a,#15161b);display:grid;place-items:center;position:relative;overflow:hidden;box-shadow:0 30px 80px -30px rgba(0,0,0,.8)}
+.avatar::after{content:"";position:absolute;width:70%;aspect-ratio:1;border-radius:50%;background:conic-gradient(from 90deg,var(--ac),var(--ac2),var(--ac));filter:blur(46px);opacity:.35;animation:spin 14s linear infinite}
+.avatar svg{position:relative;z-index:1;width:46%;color:#8a90a6}
+.avatar small{position:absolute;bottom:14px;left:0;right:0;text-align:center;z-index:1;color:var(--mut);font-size:.8rem}
+@keyframes spin{to{transform:rotate(360deg)}}
+.avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2}
+/* about */
+.about{display:grid;grid-template-columns:1.2fr .8fr;gap:56px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-content:start}
+.stat{padding:22px;border:1px solid var(--line);border-radius:var(--r);background:var(--bg2)}
+.stat strong{display:block;font:800 2.4rem/1 "Bricolage Grotesque",sans-serif;letter-spacing:-.04em}
+.stat span{color:var(--mut);font-size:.92rem}
+.stat.w{grid-column:1/-1}
+.stat.w strong{font-size:1.15rem;line-height:1.3;letter-spacing:-.01em}
+.hl{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:12px}
+.hl li{padding-left:28px;position:relative;color:var(--mut)}
+.hl li::before{content:"";position:absolute;left:0;top:.7em;width:14px;height:2px;background:var(--ac)}
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{border:1px solid var(--line);border-radius:var(--r);background:var(--bg2);padding:26px}
+.card h3{font-size:1.1rem;margin-bottom:16px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.tags li{padding:6px 14px;border:1px solid var(--line);border-radius:99px;font-size:.9rem;color:var(--tx);background:rgba(255,255,255,.03);transition:border-color .2s,background .2s,transform .2s;cursor:default}
+.tags li:hover{border-color:var(--ac);background:rgba(123,140,255,.12);transform:translateY(-2px)}
+/* projects */
+.projects{display:grid;gap:28px}
+.proj{display:grid;grid-template-columns:1.05fr .95fr;gap:0;border:1px solid var(--line);border-radius:28px;background:var(--bg2);overflow:hidden;transition:border-color .35s,transform .35s,box-shadow .35s}
+.proj:hover{border-color:#464b5b;transform:translateY(-4px);box-shadow:0 30px 60px -30px rgba(0,0,0,.9)}
+.proj:nth-child(even) .thumb{order:2}
+.thumb{min-height:300px;position:relative;overflow:hidden;display:grid;place-items:center}
+.thumb .art{position:absolute;inset:0;transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.proj:hover .art{transform:scale(1.07)}
+.thumb em{position:relative;font:normal 600 .85rem sans-serif;color:rgba(255,255,255,.7);padding:6px 12px;border-radius:99px;background:rgba(0,0,0,.35);backdrop-filter:blur(6px)}
+.pb{padding:clamp(24px,4vw,40px)}
+.pb h3{font-size:1.7rem;margin-bottom:10px}
+.pb dl{margin:18px 0}
+.pb dt{font-weight:600;font-size:.92rem;margin-top:12px}
+.pb dd{margin:2px 0 0;color:var(--mut);font-size:.98rem}
+.pb ul.k{margin:0;padding-left:18px;color:var(--mut);font-size:.98rem}
+.links{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+/* timeline */
+.tl{position:relative;list-style:none;margin:0;padding:0 0 0 32px}
+.tl::before{content:"";position:absolute;left:6px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--ac),var(--line))}
+.tl li{position:relative;padding:0 0 44px}
+.tl li::before{content:"";position:absolute;left:-32px;top:8px;width:14px;height:14px;border-radius:50%;background:var(--bg);border:2px solid var(--ac);box-shadow:0 0 0 5px var(--bg)}
+.tl .meta{color:var(--mut);font-size:.92rem;margin-bottom:6px}
+.tl h3{margin-bottom:4px}
+.tl ul{color:var(--mut);margin:0 0 14px;padding-left:18px}
+/* edu */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.card ul.plain{list-style:none;margin:0;padding:0;display:grid;gap:16px}
+.card ul.plain b{display:block}
+/* testimonials */
+.quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.quote{display:flex;flex-direction:column;justify-content:space-between;gap:24px;margin:0}
+.quote blockquote{margin:0;font-size:1.1rem;line-height:1.55}
+.who{display:flex;align-items:center;gap:14px}
+.who .pic{width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--ac),var(--ac2));flex:none}
+.who b{display:block;line-height:1.2}
+.ph{font-size:.82rem;color:#f5b971;margin-top:22px}
+/* contact */
+#contact{background:radial-gradient(800px circle at 80% 0%,rgba(123,140,255,.14),transparent 60%)}
+.contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px}
+.contact h2{font-size:clamp(2.4rem,6vw,4.2rem)}
+.clist{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:10px}
+.clist a{display:inline-block;padding:4px 0;border-bottom:1px solid var(--line);text-decoration:none;transition:border-color .2s,color .2s}
+.clist a:hover{color:var(--ac);border-color:var(--ac)}
+form{display:grid;gap:16px}
+.f{display:grid;gap:6px}
+label{font-size:.92rem;font-weight:600}
+input,textarea{width:100%;font:inherit;color:var(--tx);background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:13px 16px;transition:border-color .2s,box-shadow .2s}
+input:focus,textarea:focus{outline:none;border-color:var(--ac);box-shadow:0 0 0 4px rgba(123,140,255,.18)}
+textarea{min-height:140px;resize:vertical}
+[aria-invalid=true]{border-color:#ff7a7a}
+.err{color:#ff9a9a;font-size:.88rem;min-height:1em}
+.status{padding:14px 18px;border-radius:14px;font-size:.95rem;display:none}
+.status.ok{display:block;background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.4)}
+.status.bad{display:block;background:rgba(255,122,122,.1);border:1px solid rgba(255,122,122,.4)}
+/* footer */
+footer{border-top:1px solid var(--line);padding:56px 0 40px}
+.foot{display:flex;justify-content:space-between;gap:32px;flex-wrap:wrap}
+.foot ul{list-style:none;margin:0;padding:0;display:flex;gap:18px;flex-wrap:wrap}
+.foot a{color:var(--mut);text-decoration:none;transition:color .2s}
+.foot a:hover{color:var(--tx)}
+.copy{margin-top:40px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:var(--mut);font-size:.9rem}
+#top{position:fixed;right:max(20px,env(safe-area-inset-right,0px));bottom:calc(20px + env(safe-area-inset-bottom,0px));width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:rgba(24,26,31,.9);color:var(--tx);cursor:pointer;opacity:0;transform:translateY(16px);pointer-events:none;transition:opacity .3s,transform .3s,background .2s;z-index:40;font-size:1.2rem}
+#top.show{opacity:1;transform:none;pointer-events:auto}
+#top:hover{background:var(--ac);color:#0b0c10}
+/* reveal */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+/* 404 */
+#nf{display:none;min-height:100svh;place-items:center;text-align:center;padding:40px 20px}
+body.is404 #nf{display:grid}
+body.is404 header.nav,body.is404 main,body.is404 footer,body.is404 #top{display:none}
+#nf h1{font-size:clamp(5rem,22vw,12rem);margin:0}
+#nf p{margin-inline:auto;color:var(--mut)}
+/* responsive */
+@media(max-width:860px){
+ .grid,.about,.contact,.proj,.two{grid-template-columns:1fr}
+ .proj:nth-child(even) .thumb{order:0}
+ .thumb{min-height:220px}
+ .avatar{max-width:300px;aspect-ratio:1}
+ .burger{display:block}
+ nav ul{position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;padding:12px 20px 20px;background:rgba(18,19,22,.97);border-bottom:1px solid var(--line);display:none}
+ nav ul.open{display:flex}
+ nav a.l{padding:14px 12px}
+ header.nav .wrap{position:relative}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}
+ .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+ <div class="wrap">
+  <a class="logo" href="#hero" aria-label="Mariella Buque — home">MB<i>.</i></a>
+  <nav aria-label="Primary">
+   <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Menu">☰</button>
+   <ul id="menu">
+    <li><a class="l" href="#about">About</a></li>
+    <li><a class="l" href="#skills">Skills</a></li>
+    <li><a class="l" href="#projects">Projects</a></li>
+    <li><a class="l" href="#experience">Experience</a></li>
+    <li><a class="l" href="#contact">Contact</a></li>
+    <li><a class="btn p sm" href="[YOUR RESUME URL]" download>Resume</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+
+<main id="main">
+<section id="hero" aria-label="Introduction">
+ <div class="wrap grid">
+  <div>
+   <h1 aria-label="Mariella Buque"><span><b>Mariella</b></span><span><b>Buque</b></span></h1>
+   <p class="role fade">Solution Support Engineer</p>
+   <p class="mut fade">[YOUR BIO — 2–3 sentences: what you build, who you build it for, and what makes your work different.]</p>
+   <div class="cta fade">
+    <a class="btn p" href="#projects">View my work</a>
+    <a class="btn" href="#contact">Contact me</a>
+   </div>
+  </div>
+  <div class="avatar fade" role="img" aria-label="Profile photo placeholder">
+   <!-- Replace with: <img src="you.webp" alt="Mariella Buque" width="480" height="600" fetchpriority="high"> -->
+   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="8" r="4.5"/><path d="M3.5 21c.7-4.4 4.2-7 8.5-7s7.800 2.600 8.500 7z"/></svg>
+   <small>[YOUR PHOTO]</small>
+  </div>
+ </div>
+</section>
+
+<section id="about"><div class="wrap about">
+ <div class="rv">
+  <div class="sec-head"><h2>About me</h2></div>
+  <p>[YOUR BIO — a short, personal introduction in your own voice.]</p>
+  <p>[YOUR BACKGROUND — where you started, what you've worked on, and how your path led here.]</p>
+  <p>[YOUR APPROACH — how you break down a problem, make decisions and work with others.]</p>
+  <ul class="hl">
+   <li>[PERSONAL HIGHLIGHT 1]</li>
+   <li>[PERSONAL HIGHLIGHT 2]</li>
+   <li>[PERSONAL HIGHLIGHT 3]</li>
+  </ul>
+ </div>
+ <div class="stats rv">
+  <div class="stat"><strong>[X]+</strong><span>Years of experience</span></div>
+  <div class="stat"><strong>[X]+</strong><span>Projects completed</span></div>
+  <div class="stat w"><strong>[YOUR SPECIALTIES]</strong><span>Technologies and areas I specialize in</span></div>
+  <div class="stat w"><span>Based in</span><strong>[YOUR LOCATION]</strong></div>
+ </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+ <div class="sec-head rv"><h2>Skills &amp; technologies</h2><p>The tools I reach for most. Replace or trim any that aren't yours.</p></div>
+ <div class="skills" id="skillGrid"></div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+ <div class="sec-head rv"><h2>Featured projects</h2><p>Replace each placeholder with a real project. Swap the gradient for a screenshot using the image slot in the code.</p></div>
+ <div class="projects" id="projGrid"></div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+ <div class="sec-head rv"><h2>Experience</h2></div>
+ <ol class="tl" id="tl"></ol>
+</div></section>
+
+<section id="education"><div class="wrap">
+ <div class="sec-head rv"><h2>Education &amp; certifications</h2></div>
+ <div class="two">
+  <div class="card rv"><h3>Education</h3><ul class="plain">
+   <li><b>[DEGREE / PROGRAM]</b><span class="mut">[SCHOOL / UNIVERSITY] — [GRADUATION YEAR]</span></li></ul></div>
+  <div class="card rv"><h3>Certifications</h3><ul class="plain">
+   <li><b>[CERTIFICATION NAME]</b><span class="mut">[ISSUER] — [YEAR]</span></li>
+   <li><b>[CERTIFICATION NAME]</b><span class="mut">[ISSUER] — [YEAR]</span></li></ul></div>
+ </div>
+</div></section>
+
+<section id="testimonials"><div class="wrap">
+ <div class="sec-head rv"><h2>Kind words</h2></div>
+ <div class="quotes" id="quotes"></div>
+ <p class="ph rv">Placeholder testimonials. Replace with real quotes and permission from each person before publishing.</p>
+</div></section>
+
+<section id="contact"><div class="wrap contact">
+ <div class="rv">
+  <h2>Let’s build something great together.</h2>
+  <ul class="clist">
+   <li><a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a></li>
+   <li><a href="[LINKEDIN URL]" rel="noopener" target="_blank">LinkedIn</a></li>
+   <li><a href="[GITHUB URL]" rel="noopener" target="_blank">GitHub</a></li>
+   <li><a href="[OTHER SOCIAL URL]" rel="noopener" target="_blank">[OTHER SOCIAL]</a></li>
+  </ul>
+ </div>
+ <form id="form" class="rv" novalidate>
+  <div class="f"><label for="n">Name</label><input id="n" name="name" autocomplete="name" required><div class="err" id="e-n"></div></div>
+  <div class="f"><label for="e">Email</label><input id="e" name="email" type="email" autocomplete="email" required><div class="err" id="e-e"></div></div>
+  <div class="f"><label for="s">Subject</label><input id="s" name="subject" required><div class="err" id="e-s"></div></div>
+  <div class="f"><label for="m">Message</label><textarea id="m" name="message" required></textarea><div class="err" id="e-m"></div></div>
+  <button class="btn p" type="submit" id="send">Send message</button>
+  <div class="status" id="status" role="status" aria-live="polite"></div>
+ </form>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <div class="foot">
+  <div><a class="logo" href="#hero">Mariella Buque<i>.</i></a><p class="mut" style="margin-top:8px">[YOUR TAGLINE]</p></div>
+  <ul aria-label="Footer navigation"><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#experience">Experience</a></li><li><a href="#contact">Contact</a></li></ul>
+  <ul aria-label="Social links"><li><a href="[GITHUB URL]" rel="noopener">GitHub</a></li><li><a href="[LINKEDIN URL]" rel="noopener">LinkedIn</a></li></ul>
+ </div>
+ <div class="copy"><span>© <span id="yr">2026</span> Mariella Buque. All rights reserved.</span><a href="#hero" class="mut">Back to top</a></div>
+</div></footer>
+
+<button id="top" aria-label="Back to top">↑</button>
+
+<section id="nf" aria-labelledby="nft">
+ <div><h1 id="nft">404</h1><p>This page doesn’t exist or has moved.</p><a class="btn p" href="#hero" id="nfhome">Go to homepage</a></div>
+</section>
+
+<script>
+(function(){
+const $=(s,r=document)=>r.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const tags=a=>'<ul class="tags">'+a.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ul>';
+
+/* ---- Content: edit here ---- */
+const skills={Frontend:["React","Next.js","TypeScript","JavaScript","HTML","CSS","Tailwind CSS"],Backend:["Node.js","Python"],"UI/UX":["Figma"],Databases:["PostgreSQL","MongoDB"],"Cloud & DevOps":["Docker","AWS"],Tools:["Git","GitHub"]};
+const grads=["linear-gradient(135deg,#2b3270,#7b8cff 55%,#ee92c2)","linear-gradient(135deg,#1d3b3a,#3fa6a0 55%,#7b8cff)","linear-gradient(135deg,#40233f,#c065a8 55%,#ffa77a)"];
+const projects=[1,2,3].map(i=>({name:"[PROJECT NAME]",desc:"[PROJECT DESCRIPTION — one or two sentences on what it is.]",problem:"[PROBLEM SOLVED — who struggled, and what changed after this existed.]",tech:["[TECH 1]","[TECH 2]","[TECH 3]"],feat:["[KEY FEATURE 1]","[KEY FEATURE 2]","[KEY FEATURE 3]"],gh:"[GITHUB URL]",live:"[LIVE DEMO URL]",g:grads[i-1]}));
+const jobs=[1,2].map(()=>({t:"[JOB TITLE]",c:"[COMPANY]",d:"[DATE] – [DATE]",l:"[YOUR LOCATION]",desc:"[SHORT DESCRIPTION of your role and team.]",ach:["[ACHIEVEMENT with a measurable result]","[ACHIEVEMENT with a measurable result]"],tech:["[TECH 1]","[TECH 2]"]}));
+const quotes=[1,2,3].map(()=>({q:"[TESTIMONIAL — what it was like to work with you and what you delivered.]",n:"[PERSON'S NAME]",r:"[ROLE], [COMPANY]"}));
+
+$("#skillGrid").innerHTML=Object.entries(skills).map(([k,v])=>`<div class="card rv"><h3>${esc(k)}</h3>${tags(v)}</div>`).join("");
+$("#projGrid").innerHTML=projects.map(p=>`<article class="proj rv">
+ <div class="thumb"><!-- Replace .art with <img src="shot.webp" alt="[PROJECT NAME] screenshot" loading="lazy" width="640" height="400"> --><div class="art" style="background:${p.g}"></div><em>[PROJECT IMAGE]</em></div>
+ <div class="pb"><h3>${esc(p.name)}</h3><p class="mut">${esc(p.desc)}</p>
+ <dl><dt>Problem solved</dt><dd>${esc(p.problem)}</dd><dt>Key features</dt><dd><ul class="k">${p.feat.map(f=>'<li>'+esc(f)+'</li>').join('')}</ul></dd></dl>${tags(p.tech)}
+ <div class="links"><a class="btn sm" href="${esc(p.gh)}" target="_blank" rel="noopener">GitHub</a><a class="btn p sm" href="${esc(p.live)}" target="_blank" rel="noopener">Live demo</a></div></div></article>`).join("");
+$("#tl").innerHTML=jobs.map(j=>`<li class="rv"><div class="meta">${esc(j.d)} · ${esc(j.l)}</div><h3>${esc(j.t)}, ${esc(j.c)}</h3><p class="mut">${esc(j.desc)}</p><ul>${j.ach.map(a=>'<li>'+esc(a)+'</li>').join('')}</ul>${tags(j.tech)}</li>`).join("");
+$("#quotes").innerHTML=quotes.map(q=>`<figure class="card quote rv"><blockquote>“${esc(q.q)}”</blockquote><figcaption class="who"><span class="pic" role="img" aria-label="Profile image placeholder"></span><span><b>${esc(q.n)}</b><span class="mut">${esc(q.r)}</span></span></figcaption></figure>`).join("");
+$("#yr").textContent=new Date().getFullYear();
+
+/* ---- Nav: compact on scroll, active link, mobile menu ---- */
+const nav=$("#nav"),top=$("#top");
+const onScroll=()=>{nav.classList.toggle("small",scrollY>24);top.classList.toggle("show",scrollY>700)};
+addEventListener("scroll",onScroll,{passive:true});onScroll();
+const links=[...document.querySelectorAll("nav a.l")];
+const secs=links.map(a=>$(a.getAttribute("href")));
+new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){links.forEach(a=>a.removeAttribute("aria-current"));const a=links[secs.indexOf(e.target)];a&&a.setAttribute("aria-current","true")}}),{rootMargin:"-45% 0px -50% 0px"}).observe&&secs.forEach(s=>s&&new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){links.forEach(a=>a.removeAttribute("aria-current"));links[secs.indexOf(s)].setAttribute("aria-current","true")}}),{rootMargin:"-45% 0px -50% 0px"}).observe(s));
+const menu=$("#menu"),burger=$("#burger");
+burger.onclick=()=>{const o=menu.classList.toggle("open");burger.setAttribute("aria-expanded",o)};
+menu.addEventListener("click",e=>{if(e.target.closest("a")){menu.classList.remove("open");burger.setAttribute("aria-expanded","false")}});
+addEventListener("keydown",e=>{if(e.key==="Escape"){menu.classList.remove("open");burger.setAttribute("aria-expanded","false")}});
+top.onclick=()=>scrollTo({top:0,behavior:"smooth"});
+
+/* ---- Scroll reveal ---- */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll(".rv").forEach(el=>io.observe(el));
+
+/* ---- Hero spotlight follows pointer ---- */
+const hero=$("#hero");
+hero.addEventListener("pointermove",e=>{const r=hero.getBoundingClientRect();hero.style.setProperty("--mx",(e.clientX-r.left)+"px");hero.style.setProperty("--my",(e.clientY-r.top)+"px")},{passive:true});
+
+/* ---- Contact form ---- */
+const f=$("#form"),st=$("#status");
+const rules={n:v=>v.trim()?"":"Enter your name.",e:v=>/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)?"":"Enter a valid email address.",s:v=>v.trim()?"":"Enter a subject.",m:v=>v.trim().length>=10?"":"Write a message of at least 10 characters."};
+f.addEventListener("submit",async ev=>{
+ ev.preventDefault();st.className="status";st.textContent="";
+ let bad=null;
+ for(const k in rules){const el=$("#"+k),msg=rules[k](el.value);$("#e-"+k).textContent=msg;el.setAttribute("aria-invalid",!!msg);if(msg&&!bad)bad=el}
+ if(bad){bad.focus();return}
+ const btn=$("#send");btn.disabled=true;btn.textContent="Sending…";
+ try{
+  /* Connect a form service here (e.g. Formspree, Netlify Forms, your own API). */
+  const ENDPOINT="[YOUR FORM ENDPOINT URL]";
+  if(ENDPOINT.startsWith("["))throw new Error("no endpoint");
+  const r=await fetch(ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(Object.fromEntries(new FormData(f)))});
+  if(!r.ok)throw new Error("bad");
+  f.reset();st.className="status ok";st.textContent="Message sent. I’ll reply within [X] business days.";
+ }catch(_){
+  st.className="status bad";st.textContent="Message not sent. Email me directly at [YOUR EMAIL] or try again in a moment.";
+ }
+ btn.disabled=false;btn.textContent="Send message";
+});
+
+/* ---- 404 routing: any hash that isn't a section shows the 404 view ---- */
+const route=()=>{const h=location.hash;const ok=!h||h==="#"||!!document.getElementById(h.slice(1))&&h!=="#nf";document.body.classList.toggle("is404",!ok);document.title=ok?"Mariella Buque — Solution Support Engineer":"Page not found — Mariella Buque"};
+addEventListener("hashchange",route);route();
+$("#nfhome").addEventListener("click",()=>setTimeout(route,0));
+if("serviceWorker" in navigator&&location.protocol.startsWith("http"))addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+})();
+</script>
+</body>
+</html>
